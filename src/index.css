@@ -1,0 +1,114 @@
+.clock {
+    background-color: #008CBA;
+    border-radius: 120px;
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    outline: dashed 1px black;
+    margin: 10px;
+    position: relative;
+}
+
+.title {
+    width: 170px;
+    text-align: center;
+}
+
+.screen {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    background-color: aliceblue;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -45px 0 0 -45px;
+}
+
+.detail {
+    display: flex;
+    font-weight: bold;
+    color: #313163;
+    width: 90px;
+    margin-top: 32px;
+}
+
+.h-cl {
+    font-weight: bold;
+    margin: auto;
+}
+
+.m-cl {
+    font-weight: bold;
+    margin: auto;
+}
+
+.s-cl {
+    font-weight: bold;
+    margin: auto;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.button {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    cursor: grab;
+    display: inline-block;
+    text-align: center;
+}
+
+.reset {
+    margin: 10px;
+}
+
+.message {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.add {
+    background-color: greenyellow;
+    padding: 5px;
+    margin: 15px;
+}
+
+.ampm-cl {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    top: 25%;
+    left: 60%;
+}
+
+.mode {
+    width: 25px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 3%;
+    left: 82%;
+}
+
+.increase {
+    width: 25px;
+    transform: rotate(-135deg);
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+}
+
+.light {
+    width: 25px;
+    transform: rotate(135deg);
+    position: absolute;
+    bottom: 3%;
+    left: 82%;
+}
